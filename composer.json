@@ -1,5 +1,7 @@
 {
     "name": "zhiba/auto",
+    "description": "My first Composer project using Carbon and Monolog.",
+    "license": "MIT",
     "authors": [
         {
             "name": "3b232005",
@@ -7,7 +9,8 @@
         }
     ],
     "require": {
-        "monolog/monolog": "^3.9"
+        "monolog/monolog": "^3.9",
+        "nesbot/carbon": "^3.7"
     },
     "autoload": {
         "psr-4": {
